@@ -1,37 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="style_destination.css">
+
   <title>Frontend Mentor | Space tourism website</title>
 </head>
+
 <body>
+  <div id="logo">
+    <img src="./assets/shared/logo.svg">
+  </div>
+  <div class="horizontal_line"></div>
 
-  00 Home
-  01 Destination
-  02 Crew
-  03 Technology
+  <span class="rectangle">
+    <div class="navbar">
+      <a class="active" href="index.html">00 HOME</a>
+      <a href="./#home">01 DESTINATION</a>
+      <a href="./crew-commander.html">02 CREW</a>
+      <a href="./technology-vehicle.html">03 TECHNOLOGY</a>
+    </div>
+  </span>
 
-  01 Pick your destination
 
-  Moon
-  Mars
-  Europa
-  Titan
+  <div id="dest"> <span id="number-active">01</span> PICK YOUR DESTINATION</div>
+  <div id="dest-img">
+    <img src="./assets/destination/image-mars.png">
+  </div>
 
-  Mars
 
-  Don’t forget to pack your hiking boots. You’ll need them to tackle Olympus Mons, 
-  the tallest planetary mountain in our solar system. It’s two and a half times 
-  the size of Everest!
+  <div id="sub-navbar">
+    <a class="active" href="#home">MOON</a>
+    <a href="destination-mars.html">MARS</a>
+    <a href="destination-europa.html">EUROPA</a>
+    <a href="destination-titan.html">TITAN</a>
+  </div>
 
-  Avg. distance
-  225 mil. km
+  <div id="active-dest">MARS</div>
+  <div id="main-info">
+    <div id="info">
+      Don’t forget to pack your hiking boots. You’ll need them to<br> tackle Olympus Mons, 
+      the tallest planetary mountain in<br> our solar system. It’s two and a half times 
+      the size of<br> Everest!
+    </div>
 
-  Est. travel time
-  9 months
+    <div class="bottom_line"></div>
+
+    <div id="distance"> Avg. distance<br>
+      <em>  225 mil. km
+      </em>
+    </div>
+
+    <div id="time"> Est. travel time<br>
+      <em>  9 months
+      </em>
+    </div>
+
+
+  </div>
 </body>
+
 </html>

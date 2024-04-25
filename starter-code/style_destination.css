@@ -2,9 +2,10 @@
 
 body{
     display: flex;
-    background-image: url(./assets/home/background-home-desktop.jpg);
+    background-image: url(./assets/destination/background-destination-desktop.jpg);
     font-family: 'Barlow';
     width: 1440px;
+    height: 900px;
 }
 
 #logo{
@@ -48,58 +49,92 @@ body{
     color: #FFFFFF;
     margin-left: 60px;
     font-size: 16px;
+
 }
 
 #number{
-   color:#FFFFFF
+    color:#FFFFFF;
+ }
+
+ #number-active{
+    color: #707074;
+    font-weight: 700;
+ }
+
+#dest{
+    position: absolute;
+    color: #FFFFFF;
+    margin-top: 200px;
+    margin-left: 120px;
+    font-size: 28px;
+}
+
+#dest-img{
+    position: absolute;
+    margin-top: 340px;
+    margin-left: 160px; 
+}
+
+#sub-navbar{
+    margin-top: 345px;
+    margin-left: 830px;
+    position: absolute;
+    padding-left: 1px;
+
+}
+
+#sub-navbar a{
+
+    text-decoration: none;
+    color: #D0D6F9;
+    font-size: 16px;
+
+}
+
+#active-dest{
+    margin-top: 390px;
+    margin-left: 830px;
+    color: #FFFFFF;
+    position: absolute;
+    font-size: 100px;
+    font-family: 'Bellefair';
 }
 
 #main-info{
     position: absolute;
     color: #D0D6F9;
-    margin-top: 300px;
-    margin-left: 100px;
-    font-size: 20px;
+    margin-top: 520px;
+    margin-left: 830px;
+    font-size: 18px;
     font-weight: 300;
     font-family: 'Barlow';
 
 }
 
-#space{
-    color: #FFFFFF;
-    font-size: 150px;
-    font-family: 'Bellefair';
-}
-p{
-    line-height: 30px;
-}
-
-.circle{
+.bottom_line{
     position: absolute;
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    background-color: #FFFFFF;
-    margin-top: 400px;
-    margin-left: 950px;
-    border: 10px solid transparent;
-    transition: transform 0.5s ease, border 0.5s ease;
-
+    width: 444px;
+    margin-top: 30px;
+    height: 5px;
+    border-top: 1px solid #979797;
+    line-height: 80%;
 
 }
 
-.circle:hover{
-
-    
-    border: 20px solid #0B0D17;
-    transform: scale(1.3);
-
+#distance{
+    margin: 0;
+    position: absolute;
+    margin-top: 55px;
+    font-size: 14px;
 }
 
-#explore{
-    text-align: center;
-    margin-top: 485px;
-    margin-left: 990px;
-    font-size: 30px;
-    z-index: 9;;
+#time{
+    margin-left: 190px;
+    position: absolute;
+    margin-top: 55px;
+    font-size: 14px;
+}
+em{
+    font-size: 28px;
+    color: #FFFFFF;
 }
