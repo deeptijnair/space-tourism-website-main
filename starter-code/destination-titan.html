@@ -1,37 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="style_destination.css">
+
   <title>Frontend Mentor | Space tourism website</title>
 </head>
+
 <body>
+  <div id="logo">
+    <img src="./assets/shared/logo.svg">
+  </div>
+  <div class="horizontal_line"></div>
 
-  00 Home
-  01 Destination
-  02 Crew
-  03 Technology
+  <span class="rectangle">
+    <div class="navbar">
+      <a class="active" href="index.html">00 HOME</a>
+      <a href="./#home">01 DESTINATION</a>
+      <a href="./crew-commander.html">02 CREW</a>
+      <a href="./technology-vehicle.html">03 TECHNOLOGY</a>
+    </div>
+  </span>
 
-  01 Pick your destination
 
-  Moon
-  Mars
-  Europa
-  Titan
+  <div id="dest"> <span id="number-active">01</span> PICK YOUR DESTINATION</div>
+  <div id="dest-img">
+    <img src="./assets/destination/image-titan.png">
+  </div>
 
-  Titan
 
-  The only moon known to have a dense atmosphere other than Earth, Titan 
-  is a home away from home (just a few hundred degrees colder!). As a 
-  bonus, you get striking views of the Rings of Saturn.
+  <div id="sub-navbar">
+    <a href="destination-moon.html">MOON</a>
+    <a href="destination-mars.html">MARS</a>
+    <a href="destination-europa.html" >EUROPA</a>
+    <a class="active" href="#home">TITAN</a>
+  </div>
 
-  Avg. distance
-  1.6 bil. km
+  <div id="active-dest">Titan</div>
+  <div id="main-info">
+    <div id="info">
+      The only moon known to have a dense atmosphere other<br> than Earth, Titan 
+      is a home away from home (just a few<br> hundred degrees colder!). As a 
+      bonus, you get striking<br> views of the Rings of Saturn.
+    </div>
 
-  Est. travel time
-  7 years
+    <div class="bottom_line"></div>
+
+    <div id="distance"> Avg. distance<br>
+      <em>  1.6 bil. km
+      </em>
+    </div>
+
+    <div id="time"> Est. travel time<br>
+      <em>7 years</em>
+    </div>
+
+
+  </div>
 </body>
+
 </html>
