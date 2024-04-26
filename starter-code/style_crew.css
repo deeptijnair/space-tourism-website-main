@@ -132,7 +132,7 @@ body{
 
 
 
-  .active, .dot:hover {
+  .dot:hover {
     background-color: white;
   }
 

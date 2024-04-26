@@ -81,9 +81,8 @@ body{
 
 
 .circle-nav{
-    position: fixed;
     left :0;
-    top: 55%;
+    margin-top: 580px;
     transform: translateY(-50%);
     
     
@@ -112,8 +111,6 @@ body{
 .circle-nav li{
     padding-bottom: 30px;
     text-align: center;
-
-
 }
 
 
