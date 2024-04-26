@@ -49,8 +49,14 @@ body{
     color: #FFFFFF;
     margin-left: 60px;
     font-size: 16px;
+    padding-bottom: 35px;
 
 }
+
+.navbar a.active {
+    border-bottom: 2px solid white;
+  }
+
 
 #number{
     color:#FFFFFF;
@@ -76,20 +82,24 @@ body{
 }
 
 #sub-navbar{
-    margin-top: 345px;
-    margin-left: 830px;
+    margin-top: 325px;
+    margin-left: 810px;
     position: absolute;
-    padding-left: 1px;
 
 }
 
-#sub-navbar a{
 
+#sub-navbar a{
     text-decoration: none;
     color: #D0D6F9;
     font-size: 16px;
-
+    padding: 15px;
 }
+
+#sub-navbar a.active {
+    border-bottom: 2px solid white;
+  }
+
 
 #active-dest{
     margin-top: 390px;

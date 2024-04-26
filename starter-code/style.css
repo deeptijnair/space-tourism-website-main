@@ -41,6 +41,7 @@ body{
     z-index: 9;
     margin-top: 25px;
     padding-left: 150px;
+    
 
 }
 .navbar a {
@@ -48,6 +49,12 @@ body{
     color: #FFFFFF;
     margin-left: 60px;
     font-size: 16px;
+    padding-bottom: 35px;
+}
+
+
+.navbar a.active {
+    border-bottom: 2px solid white;
 }
 
 #number{
