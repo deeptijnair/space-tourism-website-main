@@ -1,28 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="style_crew.css">
+
   <title>Frontend Mentor | Space tourism website</title>
 </head>
+
 <body>
+  <div id="logo">
+    <img src="./assets/shared/logo.svg">
+  </div>
+  <div class="horizontal_line"></div>
 
-  00 Home
-  01 Destination
-  02 Crew
-  03 Technology
+  <span class="rectangle">
+    <div class="navbar">
+      <a href="index.html">00 HOME</a>
+      <a href="./destination-moon.html">01 DESTINATION</a>
+      <a class="active" href="#home">02 CREW</a>
+      <a href="./technology-vehicle.html">03 TECHNOLOGY</a>
+    </div>
+  </span>
 
-  02 Meet your crew
 
-  Pilot
-  Victor Glover
+  <div id="crew"> <span id="number-active">02</span> MEET YOUR CREW</div>
+  <div id="crew-img">
+    <img src="./assets/crew/image-victor-glover.png">
+  </div>
 
-  Pilot on the first operational flight of the SpaceX Crew Dragon to the 
-  International Space Station. Glover is a commander in the U.S. Navy where 
-  he pilots an F/A-18.He was a crew member of Expedition 64, and served as a 
-  station systems flight engineer. 
+  <div id="crew-role">  PILOT
+  </div>
+
+  
+  <div id="active-crew">  VICTOR GLOVER
+
+  </div>
+  <div id="main-info">
+    <div id="info">
+      Pilot on the first operational flight of the SpaceX Crew<br> Dragon to the 
+      International Space Station. Glover is a<br> commander in the U.S. Navy where 
+      he pilots an F/A-18.He<br> was a crew member of Expedition 64, and served as a<br> 
+      station systems flight engineer. 
+    </div>
+
+    <div class="dot-nav">
+      <a class="dot"  href="./crew-commander.html"></a>
+      <a class="dot"  href="./crew-specialist.html"></a>
+      <a class="dot" class="active" href="#home"></a>
+      <a class="dot" href="crew-engineer.html"></a>
+  
+      </div>
+
+    
+  </div>
 </body>
+
 </html>

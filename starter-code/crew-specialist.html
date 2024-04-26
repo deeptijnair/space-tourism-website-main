@@ -1,27 +1,60 @@
-<!DOCTYPE html>
+/<!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="style_crew.css">
+
   <title>Frontend Mentor | Space tourism website</title>
 </head>
+
 <body>
+  <div id="logo">
+    <img src="./assets/shared/logo.svg">
+  </div>
+  <div class="horizontal_line"></div>
 
-  00 Home
-  01 Destination
-  02 Crew
-  03 Technology
+  <span class="rectangle">
+    <div class="navbar">
+      <a href="index.html">00 HOME</a>
+      <a href="./destination-moon.html">01 DESTINATION</a>
+      <a class="active" href="#home">02 CREW</a>
+      <a href="./technology-vehicle.html">03 TECHNOLOGY</a>
+    </div>
+  </span>
 
-  02 Meet your crew
 
-  Mission Specialist
-  Mark Shuttleworth
+  <div id="crew"> <span id="number-active">02</span> MEET YOUR CREW</div>
+  <div id="crew-img">
+    <img src="./assets/crew/image-mark-shuttleworth.png">
+  </div>
 
-  Mark Richard Shuttleworth is the founder and CEO of Canonical, the company behind 
-  the Linux-based Ubuntu operating system. Shuttleworth became the first South 
-  African to travel to space as a space tourist.
+  <div id="crew-role"> MISSION SPECIALIST</div>
+
+
+  <div id="active-crew"> MARK SHUTTLEWORTH
+
+  </div>
+  <div id="main-info">
+    <div id="info">
+      Mark Richard Shuttleworth is the founder and CEO of<br> Canonical, the company behind
+      the Linux-based Ubuntu<br> operating system. Shuttleworth became the first South<br>
+      African to travel to space as a space tourist.
+    </div>
+
+    <div class="dot-nav">
+      <a class="dot" href="./crew-commander.html"></a>
+      <a class="dot" class="active" href="#home"></a>
+      <a class="dot" href="./crew-pilot.html"></a>
+      <a class="dot" href="crew-engineer.html"></a>
+
+    </div>
+
+
+  </div>
 </body>
+
 </html>

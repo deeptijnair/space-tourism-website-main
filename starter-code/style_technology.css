@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Bellefair&family=Chivo:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+    display: flex;
+    background-image: url(./assets/technology/background-technology-desktop.jpg);
+    font-family: 'Barlow';
+    width: 1440px;
+    height: 900px;
+}
+
+#logo{
+    margin-top: 50px;
+    position: absolute;
+    margin-left: 20px;
+}
+
+.horizontal_line {
+    width: 473px;
+    height: 5px;
+    border-top: 1px solid #979797;
+    line-height: 80%;
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 120px;
+    z-index: 9;
+}
+
+.rectangle{
+    width: 1000px;
+    height: 80px;
+    margin-left: 500px;
+    margin-top: 40px;
+    background-color: rgba(255, 255, 255, 0.077);
+    backdrop-filter: blur(10px);
+    position: absolute;
+    text-align: center;
+
+}
+
+.navbar{
+    position: absolute;
+    z-index: 9;
+    margin-top: 25px;
+    padding-left: 150px;
+    
+
+}
+.navbar a {
+    text-decoration: none;
+    color: #FFFFFF;
+    margin-left: 60px;
+    font-size: 16px;
+    padding-bottom: 35px;
+}
+
+
+.navbar a.active {
+    border-bottom: 2px solid white;
+}
+
+#number{
+   color:#FFFFFF
+}
+
+#number{
+    color:#FFFFFF;
+ }
+
+#number-active{
+    color: #707074;
+    font-weight: 700;
+ }
+
+#technology{
+    position: absolute;
+    color: #FFFFFF;
+    margin-top: 200px;
+    margin-left: 120px;
+    font-size: 28px;
+}
+
+
+.circle-nav{
+    position: fixed;
+    left :0;
+    top: 55%;
+    transform: translateY(-50%);
+    
+    
+}
+
+.circle-nav a {
+    text-decoration: none;
+    color: #FFFFFF;
+    margin-left: 60px;
+    font-size: 32px;
+    display: block;
+}
+
+.circle {
+    
+    cursor: pointer;
+    width: 80px;
+	height: 80px;
+    border: 1px solid #707074;
+    background-color:rgba(255, 255, 255, 0);
+    border-radius: 50%;
+    transition: background-color 0.6s ease , color;
+   
+}
+
+.circle-nav li{
+    padding-bottom: 30px;
+    text-align: center;
+
+
+}
+
+
+.circle:hover {
+    background-color: white;
+}
+
+.circle-nav a:hover{
+    color: black;
+}
+
+#technology-img{
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 830px;
+     
+}
+
+#active-technology{
+    margin-top: 450px;
+    margin-left: 220px;
+    color: #FFFFFF;
+    position: absolute;
+    font-size: 56px;
+    font-family: 'Bellefair';
+}
+
+#terminology{
+    position: absolute;
+    margin-top: 410px;
+    margin-left: 220px;
+    font-size: 16px;
+    color: #707074 ;
+}
+
+#main-info{
+    position: absolute;
+    color: #D0D6F9;
+    margin-top: 520px;
+    margin-left: 215px;
+    font-size: 18px;
+    font-weight: 300;
+    font-family: 'Barlow';
+
+}
+
+p{
+    line-height: 30px;
+}
+
+
+
+
